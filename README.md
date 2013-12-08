@@ -1,6 +1,4 @@
-> 
 > We do what we want because we can.
-> 
 
 # dotfiles
 
