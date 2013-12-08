@@ -8,7 +8,7 @@ Fuck yeah! Dotfiles!
 
 # Installation
 
-    Note: This will install all the gems needed by [Metasploit](https://github.com/rapid7/metasploit-framework/) too.
+*Note: This will install all the gems needed by [Metasploit](https://github.com/rapid7/metasploit-framework/) too.*
 
 Caveat: if you're installing this to a non-new environment, be sure to run a backup and make sure it works.
 
