@@ -20,7 +20,7 @@ function dep {
   # Check version
   if $i ; then
     local version=$($1 --version | grep -oE -m 1 "[[:digit:]]+\.[[:digit:]]+\.?[[:digit:]]*")
-    [[ $version < $2 ]] && local msg="Version $1 ($version) needed: $2" 
+    [[ $version < $2 ]] && local msg="Version $1 ($version) needed: $2"
     [ -n "$msg" ] && missing+=("$msg")
   else
     local msg="Missing $1"
