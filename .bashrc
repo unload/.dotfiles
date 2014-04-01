@@ -3,7 +3,7 @@
 
 # exports
 export TZ=UTC
-export EDITOR=subl -w
+export EDITOR=sublime -w
 export PATH=$PATH:$HOME/adt-bundle/sdk/tools/:$HOME/adt-bundle/sdk/platform-tools/
 export PATH=~/.local/bin:$PATH
 export TERM="screen-256color"
