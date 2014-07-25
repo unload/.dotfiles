@@ -35,10 +35,10 @@ missing=()
 # --- Check deps --- #
 notice "Checking dependencies"
 dep "git"  "1.7"
-dep "ruby" "1.8"
+dep "ruby" "2.0.0"
 dep "vim" "7.3"
-dep "rake" "0.8.7"
-dep "gem" "1.7.2"
+dep "rake" "10.0.4"
+dep "gem" "2.0.14"
 dep "bundle" "1.0.15"
 
 if [ "${#missing[@]}" -gt "0" ]; then
